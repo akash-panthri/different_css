@@ -3,11 +3,146 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link id="vcss" type="text/css" rel="stylesheet" href="" />
   <link rel="stylesheet" href="different_css.css">
+  <script id="vjss" type="text/javascript"></script>
+  <script id="vjs" type="text/javascript"></script>
   <script src="different_css.js" defer ></script>
   <title>different_css</title>
 </head>
 <body>
-  
+    <main class="mainContainer">
+
+ 
+        <div class="head_text">
+          <h1>Using different css</h1>
+         
+            <div class="row justify-content-center">
+              <h2 id="head2">THIS IS <strong id="strng">NORMAL</strong></h2>
+            </div>
+        
+        </div>
+    
+          <form class="row_between_flexed regularOne" action="#">
+            <div  class="label_input">
+              <input type="radio" class="formInput" name="inned" id="121" value="1" />
+              <label class="inputLabel" for="121"> first </label>
+            </div>
+            <div  class="label_input">
+              <input type="radio" class="formInput" name="inned" id="122" value="2" />
+              <label class="inputLabel" for="122"> second </label>
+            </div>
+            <div  class="label_input">
+              <input type="radio" class="formInput" name="inned" id="123" value="3" />
+              <label class="inputLabel" for="123"> third </label>
+            </div>
+            <div  class="label_input">
+              <input type="radio" class="formInput" name="inned" id="124" value="4" />
+              <label class="inputLabel" for="124"> fourth </label>
+            </div>
+         
+          </form>
+      
+      
+        <!-- Buttons -->
+      
+          <div
+            class="buttons is-medium uk-button-group row_between_flexed buttonContainer"
+          >
+            <button
+              id="but1"
+              class="button_class btn btn-lg btn-info button is-info uk-button-default info secondary"
+            >
+              button 1
+            </button>
+            <button
+              id="but2"
+              class="button_class btn btn-lg btn-primary button is-primary uk-button-primary primary"
+            >
+              button 2
+            </button>
+            <button
+              id="but3"
+              class="button_class btn btn-lg btn-success button is-success uk-button-secondary success"
+            >
+              button 3
+            </button>
+            <button
+              id="but4"
+              class="button_class btn btn-lg btn-warning button is-warning warning"
+            >
+              button 4
+            </button>
+            <button
+              id="but5"
+              class="button_class btn btn-lg btn-danger button is-danger uk-button-danger alert"
+            >
+              button 5
+            </button>
+          </div>
+      
+    
+        <div class="padded5 margin2_5">
+          <input type="text" class="form-control input uk-input">
+    <button type="submit" class="btn button uk-button">Submit</button>
+        </div>
+    <div class="padded5 margin2_5">
+      <!-- Alert -->
+    <div class="alert alert-success notification is-success uk-alert uk-alert-success alert-box success">It was succesful</div>
+    
+    <!-- Card -->
+    <div class="padded5 margin2_5">
+    
+      <div class="card uk-card">
+        <div class="card-title card-header uk-card-title card-divider">Card titile</div>
+        <div class="card-body card-content uk-card-body card-section">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad ullam omnis distinctio non voluptas quisquam.</div>
+      </div>
+    </div>
+    
+    
+    <!-- Badges -->
+    <div class="padded5 margin2_5">
+      
+      <span class="badge tag uk-badge">New</span>
+    </div>
+    
+    <!-- Tables -->
+    <div class="padded5 margin2_5">
+    
+    
+    <table class="table is-striped uk-table uk-table-striped striped">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">First</th>
+          <th scope="col">Last</th>
+          <th scope="col">Handle</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td colspan="2">Larry the Bird</td>
+          <td>@twitter</td>
+        </tr>
+      </tbody>
+    
+    </table>
+    </div>
+    </div>
+    
+    </main>
 </body>
 </html>
