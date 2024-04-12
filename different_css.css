@@ -78,3 +78,38 @@
   .margin2_5 {
     margin: 2.5% 0;
   }
+
+
+  @media only screen and (max-width: 1024px) {
+    main.mainContainer {
+      padding: 2.5% 0;
+    }
+    .buttonContainer > * {
+      margin: 2.5% 0;
+      width: 300px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    main.mainContainer {
+      padding: 5.5% 0;
+    }
+    .head_text {
+      margin-top: 5vh;
+      text-align: center;
+    }
+    
+    .buttonContainer > * {
+      margin: 2.5% 0;
+      width: 80vw;
+    }
+    .label_input {
+      width: 80%;
+    }
+    .row_between_flexed {
+      justify-content: center;
+    }
+    .regularOne {
+      justify-content: flex-end;
+    }
+  }
+  
