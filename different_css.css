@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box !important;
+  }
+  
+  h1 {
+    font-size: 50px;
+  }
+  
+  h2 {
+    font-size: 36px;
+  }
+  
+  main.mainContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav_element {
+    font-size: 20px !important;
+    height: 50px;
+  }
+  .head_text {
+    width: 100%;
+    height: 25vh;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vh;
+  }
+  .inputLabel {
+    text-decoration: solid;
+    text-align: center;
+    color: darkblue;
+    font-size: 30px;
+  }
+  
+  #strng {
+    color: red;
+  }
+  
+  .row_between_flexed {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .regularOne {
+    padding: 0 5%;
+    width: 100%;
+    margin: 2.5% 0;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    align-items: center;
+  
+    flex-wrap: wrap;
+  }
+  
+  .buttonContainer {
+    padding: 0 2.5%;
+  
+    height: auto;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .label_input {
+    width: 25%;
+  }
+  .buttonContainer > * {
+    width: 15vw;
+  
+    height: 15vh;
+  }
+  .padded5 {
+    padding: 0 5%;
+  }
+  .margin2_5 {
+    margin: 2.5% 0;
+  }
